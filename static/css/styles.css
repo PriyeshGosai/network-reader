@@ -1,0 +1,59 @@
+/* styles.css */
+.fixed-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    overflow-x: auto;
+}
+
+.item-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+label {
+    margin-right: 5px;
+}
+
+select {
+    padding: 5px;
+}
+
+.pagination {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pagination button {
+    margin: 0 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.pagination button.active {
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#fancyTable {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
