@@ -1,15 +1,9 @@
-____________________
-PyPSA Network Reader
-____________________
+________PyPSA Network Reader________
 
--About-
+_________About_________
 This repository can help with any PyPSA network.
-
--Functions-
-App Files:
-          network_save 
-                      Jupyter Notebook creates a PyPSA Network based on public information of Ethiopia's Hydropower
-          net_writer
-                    Writes a Webpage that can tabulate and plot any PyPSA Network
+_______Functions_______
+network_save.ipynb - (Jupyter Notebook creates a PyPSA Network based on public information of Ethiopia's Hydropower)
+net_writer.py - (Writes a Webpage that can tabulate and plot any PyPSA Network)
 
 
